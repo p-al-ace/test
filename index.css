@@ -1,0 +1,19 @@
+p {
+    /* 不拆行 */
+    /* 可以用 overflow:hidden 把溢出部分隐藏 */
+    white-space: nowrap;
+}
+
+p {
+    /* 拆行 */
+    white-space: pre-wrap;
+}
+
+a:link {
+    color: red;
+}
+
+input:focus {
+    background-color: yellow;
+    color: red;
+}
